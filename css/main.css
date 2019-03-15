@@ -335,3 +335,72 @@ padding-right: 28px;
 .news:hover .readfull{
 	opacity: 1;
 }
+
+.howtoplayimage1{
+	background-repeat: no-repeat;
+	margin-top: 112px;
+	background-size: cover;
+	height: 550px;
+}
+
+.steps{
+	background: #1c1c21;
+}
+
+.steps h1{
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: white;
+}
+
+.how{
+	margin: 0 auto;
+	width: 850px;
+	height: 500px;
+}
+
+.stepimg{
+	border-right: 3px solid #ff4a4a;
+	margin-top: 70px;
+	width: 380px;
+}
+
+.stepimg img{
+  padding-right: 30px;
+  border-radius: 90px 0 90px 0;
+  width: 320px;
+  height: 350px;
+}
+
+.steptext{
+	padding-left: 70px;
+	border-left: 3px solid #ff4a4a;
+	margin-top: -355.5px;
+	float: right;
+	color: white;
+	width: 470px;
+	height: 355px;
+}
+
+.steptext span{
+	color: #ff4a4a;
+}
+
+.howtoplayred{
+	background: #ff4a4a;
+	font-family: 'Open Sans', sans-serif;
+	padding: 19px 0;
+	display: block;
+	border-radius: 8px;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	width: 280px;
+	transition: box-shadow 1.5s;
+}
+
+.howtoplayred:hover{
+	box-shadow: 0px 10px 60px 0px #ff4a4a;
+}
