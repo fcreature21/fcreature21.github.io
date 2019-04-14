@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Донат</title>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+	<section class="menu">
+	<div class="menu animated fadeInDown">
+		    <ul>
+			<li><a href="index.html" class="glav">Главная</a><li>
+			<li><a href="howtoplay.html">Как начать играть</a></li>
+			<li><a href="donate.html">Донат</a><li>
+		</ul>
+		</div>
+	</section>
+		<header id="header" class="header">
+		<div class="container">
+			<h1>Пополнить счёт</h1>
+				<form action="#" class="form">
+				<input type="nick" name="nick" placeholder="Введите свой Nick_Name" class="input" required>
+				<input type="rub" name="rub" placeholder="Введите сумму пополнения" class="input" required>
+				<button type="submit" class="btn"><a>Оплатить</a></button>
+			</form>
+			<h2>Игровые пакеты</h2>
+			<p>Для того, что бы приобрести игровой пакет, вы должны пополнить игровой счёт, зачислить донат введя команду в игре /donate, далее выйти из аккаунта и приобрести игровой пакет!</p>
+			<div class="paketcontainer">
+				<div class="paket">
+					<img src="https://image.flaticon.com/icons/svg/1420/1420337.svg" width="54">
+					<h4>« СТАРТАП »</h4>
+					<p>- Лицензия на автомобиль</p>
+					<p>- 500.000$</p>
+					<button type="submit" class="btn btn-form" name="paket_1"><a>Купить 200 руб</a></button>
+				</div>
+				<div class="paket">
+					<img src="https://image.flaticon.com/icons/svg/1592/1592000.svg" width="64">
+					<h4>« ЛИЦЕНЗЁР »</h4>
+					<p>- Полный пакет лицензий;</p>
+					<p>- 50.000$</p>
+					<button type="submit" class="btn btn-form" name="paket_2"><a>Купить 200 руб</a></button>
+				</div>
+				<div class="paket">
+					<img src="https://image.flaticon.com/icons/svg/138/138287.svg" width="54">
+					<h4>« УСПЕШНЫЙ »</h4>
+					<p>- Пакет лицензий;</p>
+					<p>- 1.000.000$</p>
+					<button type="submit" class="btn btn-form" name="paket_3"><a>Купить 200 руб</a></button>
+				</div>
+				<div class="paket">
+					<img src="https://image.flaticon.com/icons/svg/1580/1580764.svg" width="60">
+					<h4>« БОГАТЫЙ »</h4>
+					<p>- Пакет лицензий;</p>
+					<p>- 2.000.000$</p>
+					<button type="submit" class="btn btn-form" name="paket_4"><a>Купить 200 руб</a></button>
+				</div>
+				<div class="paket">
+					<img src="https://image.flaticon.com/icons/svg/1141/1141783.svg" width="60">
+					<h4>« МУЛЬТИМИЛЛИОНЕР »</h4>
+					<p>- Пакет лицензий,VIP, 3 игры в рулетку;</p>
+					<p>- 5.000.000$</p>
+					<button type="submit" class="btn btn-form" name="paket_5"><a>Купить 200 руб</a></button>
+				</div>
+			</div>
+        </div>
+	    </div>
+	</header>
+		<footer id="footer" class="footer">
+		<div class="container">
+   <p class="credits">
+   	<a href="https://vk.com/soundrpof" target="_blank">Sound Role Play © 2019</a><br><br>Все права защищены.<br>Любое копирование материала запрещено!
+   </p>
+		</div>
+	</footer>
+		<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+		<script type="text/javascript">
+	$(document).ready(function(){
+  var body = $("body");
+  body.fadeIn(700);
+  $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) {
+  e.preventDefault();
+  $("body").fadeOut(500);
+  var self = this;
+  setTimeout(function () {
+    window.location.href = $(self).attr("href");
+  }, 500);
+  });
+});
+</script>
+</body>
+</html>
