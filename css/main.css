@@ -736,6 +736,13 @@ padding-bottom: 80px;
 	height: 525px;
 }
 
+.carditem{
+    background-color: rgb(32, 27, 45);
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
 @media screen and (max-width: 1200px){
 
     .card{
